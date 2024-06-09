@@ -1,6 +1,6 @@
 fetch("https://rickandmortyapi.com/api/character")
 .then(function(response) {
-    return response.json() //tipo de dato que yo puedo manipular 
+    return response.json()
 })
 .then(function(data) {
     console.log(data.results);
